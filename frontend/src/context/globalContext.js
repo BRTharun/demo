@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react"
 import axios from 'axios'
 
 
-const BASE_URL = "http://13.61.2.224/:5000";
+const BASE_URL = "http://13.61.2.224:5000";
 
 
 const GlobalContext = React.createContext()
