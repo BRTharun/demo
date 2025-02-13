@@ -14,7 +14,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - MONGO_URI=mongodb://mongo:27017/mern-blog
+      - MONGO_URI=mongodb+srv://s:uoflviFmf9OFNsc8@cluster0.iv4v7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     depends_on:
       - mongo
 
